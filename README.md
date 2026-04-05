@@ -37,7 +37,7 @@ You can view live logs on MacOS using `/Applications/apprenticeVr.app/Contents/M
 
 # Troubleshooting Guide
 
-If ApprenticeVR is unable to connect or download, follow the steps below to identify and resolve the issue:
+If ApprenticeVR fails to connect, download, or mount, follow the steps below to identify and resolve the issue:
 
 ---
 
@@ -89,7 +89,7 @@ If DNS changes don't help, your ISP might be blocking access. Use a VPN to bypas
 
 ---
 
-## 🛡️ Router or Firewall Blocking?
+## 🛜 Router or Firewall Blocking?
 
 If a VPN works, but a direct connection doesn't, your router or antivirus/firewall may be blocking access.  
 Check out this guide for help:
@@ -104,6 +104,12 @@ You can either:
   - `downloads.rclone.org`
   - `go.srcdl1.xyz`
   - `pastebin.com`
+
+---
+
+## 🛡️ Windows Defender or Antivirus
+
+Sometimes Windows Defender or other Antiviruses will block `rclone` from downloading, presenting the client with a "Failed to Mount" error. Try completely disabling Windows Defender or your Antivirus temporarily instead of creating an exception.
 
 ---
 
